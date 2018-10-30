@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A89DCFFB218756AD000735B8 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89DCFFA218756AD000735B8 /* AnimationViewController.swift */; };
+		A89DCFFD21875C58000735B8 /* cats in Resources */ = {isa = PBXBuildFile; fileRef = A89DCFFC21875C58000735B8 /* cats */; };
+		A89DCFFF21885731000735B8 /* GrowingCirclesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89DCFFE21885731000735B8 /* GrowingCirclesViewController.swift */; };
+		A89DD00521886740000735B8 /* circles in Resources */ = {isa = PBXBuildFile; fileRef = A89DD00421886740000735B8 /* circles */; };
 		A8CD366F21833CDA009B58DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CD366E21833CDA009B58DC /* AppDelegate.swift */; };
 		A8CD367121833CDA009B58DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CD367021833CDA009B58DC /* ViewController.swift */; };
 		A8CD367421833CDA009B58DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CD367221833CDA009B58DC /* Main.storyboard */; };
 		A8CD367621833CDB009B58DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8CD367521833CDB009B58DC /* Assets.xcassets */; };
 		A8CD367921833CDB009B58DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CD367721833CDB009B58DC /* LaunchScreen.storyboard */; };
 		A8CD368421833CDC009B58DC /* GradualImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CD368321833CDC009B58DC /* GradualImageTests.swift */; };
+		A8CD369521834F13009B58DC /* GlidingInImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CD369421834F13009B58DC /* GlidingInImageViewController.swift */; };
+		A8CD369721874FC7009B58DC /* VerticalPanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CD369621874FC7009B58DC /* VerticalPanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A89DCFFA218756AD000735B8 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		A89DCFFC21875C58000735B8 /* cats */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cats; sourceTree = "<group>"; };
+		A89DCFFE21885731000735B8 /* GrowingCirclesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingCirclesViewController.swift; sourceTree = "<group>"; };
+		A89DD00421886740000735B8 /* circles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = circles; sourceTree = "<group>"; };
 		A8CD366B21833CDA009B58DC /* GradualImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradualImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CD366E21833CDA009B58DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8CD367021833CDA009B58DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +46,8 @@
 		A8CD367F21833CDC009B58DC /* GradualImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradualImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CD368321833CDC009B58DC /* GradualImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradualImageTests.swift; sourceTree = "<group>"; };
 		A8CD368521833CDC009B58DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8CD369421834F13009B58DC /* GlidingInImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlidingInImageViewController.swift; sourceTree = "<group>"; };
+		A8CD369621874FC7009B58DC /* VerticalPanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalPanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +89,16 @@
 		A8CD366D21833CDA009B58DC /* GradualImage */ = {
 			isa = PBXGroup;
 			children = (
+				A89DD00421886740000735B8 /* circles */,
+				A89DCFFC21875C58000735B8 /* cats */,
 				A8CD366E21833CDA009B58DC /* AppDelegate.swift */,
 				A8CD367021833CDA009B58DC /* ViewController.swift */,
 				A8CD367221833CDA009B58DC /* Main.storyboard */,
+				A8CD369421834F13009B58DC /* GlidingInImageViewController.swift */,
+				A89DCFFA218756AD000735B8 /* AnimationViewController.swift */,
+				A8CD369621874FC7009B58DC /* VerticalPanViewController.swift */,
 				A8CD367521833CDB009B58DC /* Assets.xcassets */,
+				A89DCFFE21885731000735B8 /* GrowingCirclesViewController.swift */,
 				A8CD367721833CDB009B58DC /* LaunchScreen.storyboard */,
 				A8CD367A21833CDC009B58DC /* Info.plist */,
 			);
@@ -180,6 +198,8 @@
 				A8CD367921833CDB009B58DC /* LaunchScreen.storyboard in Resources */,
 				A8CD367621833CDB009B58DC /* Assets.xcassets in Resources */,
 				A8CD367421833CDA009B58DC /* Main.storyboard in Resources */,
+				A89DCFFD21875C58000735B8 /* cats in Resources */,
+				A89DD00521886740000735B8 /* circles in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +217,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8CD369521834F13009B58DC /* GlidingInImageViewController.swift in Sources */,
 				A8CD367121833CDA009B58DC /* ViewController.swift in Sources */,
+				A89DCFFB218756AD000735B8 /* AnimationViewController.swift in Sources */,
 				A8CD366F21833CDA009B58DC /* AppDelegate.swift in Sources */,
+				A89DCFFF21885731000735B8 /* GrowingCirclesViewController.swift in Sources */,
+				A8CD369721874FC7009B58DC /* VerticalPanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
